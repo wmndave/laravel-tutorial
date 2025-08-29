@@ -93,3 +93,20 @@ Create Job
 ```
 
 Now the title should change to `Create Job` when you visit the `/jobs/create` route.
+
+
+
+##Personal Summary
+
+use extend to include the parent file
+
+name of parent file ; parent_file.blade.php
+
+extend parent_file
+On the parent page use @yeild('name_of_section') for the section u need to edit in another section
+
+
+In the child page use 
+@section('name_of_section')
+  //Write any content
+@endsection
